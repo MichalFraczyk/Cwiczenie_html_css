@@ -1,0 +1,181 @@
+/* ## ELEMENTY GLOWNE ############*/
+
+header {
+    background-color: #eee;
+
+}
+
+main {
+    background-color: #ddd;
+
+}
+
+footer {
+    background-color: #ccc;
+
+}
+
+/* ## KLASYY GLOWNE ###############*/
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    float: inherit;
+}
+
+.clear {
+    clear: both;
+}
+
+/* ## ELEMENTY STRONY ##############*/
+
+.contentWrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+.logo {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+
+}
+
+/*element.style {*/
+    /*!*margin-top: 55px;*!*/
+    /*position: relative;*/
+    /*top: 20;*/
+    /*left: 0;*/
+/*}*/
+
+.mainMenu {
+    background-color: blue;
+
+}
+
+.mainMenu li {
+    border-color: black;
+    border: 1px;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+
+
+
+
+}
+
+.sekcjaPowitalna {
+    height:1000px;
+    background: url("../images/zurawGdanski.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.sekcjaPowitalna h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 120px;
+
+}
+
+.sekcjaOProdukcie {
+    text-align: center;
+}
+
+.funkcjonalnosc {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    color: black;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-position: center 20px;
+    background-size: 60px 60px;
+    text-align: center;
+
+}
+
+.funkcjonalnoscPierwsza {
+    background-image: url("../images/Ambulance-Icon.png");
+
+}
+
+.funkcjonalnoscDruga {
+    background-image: url("../images/Food_Bank_icon.svg.png");
+}
+
+.funkcjonalnoscTrzecia {
+    background-image: url("../images/Translation-icon.png");
+
+}
+
+.funkcjonalnoscCzwarta {
+    background-image: url("../images/Light_Bulb_Icon.png");
+}
+
+.poziom-1 {
+    position: relative;
+
+}
+
+.poziom-2 {
+    position: absolute;
+    background-color: #cccccc;
+    margin-top: 30px;
+}
+
+.poziom-3 {
+    position: absolute;
+    background-color: #eeeeee;
+    margin-left: 200px;
+    margin-top: -15px;
+}
+
+
+li {
+    width: 120px;
+    height: 20px;
+    line-height:20px;
+    position: relative;
+
+}
+
+
+
+ul ul {
+    display: none;
+
+}
+
+li:hover > ul{
+    display: block;
+
+}
+
+ul.poziom-1 > li {
+    background-color: #dddddd;
+}
+
+ul.poziom-2 > li {
+
+
+}
+
+ul.poziom-3 > li {
+
+
+}
+
+
